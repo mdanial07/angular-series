@@ -1,0 +1,18 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #cdcdcd;
+    padding: 0 24px;
+    .Navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Item {
+            padding: 0 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}
