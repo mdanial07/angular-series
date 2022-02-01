@@ -12,4 +12,22 @@ export class AboutusComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  name = 'Danial';
+
+  date = new Date()
+
+  obj = {
+    name: 'danial', des: 'DE'
+  }
+
+
+
+  abdullahArray = [
+    { lastName: 'Abc', firstName: 'Danial', des: 'Developer' },
+    { lastName: 'Abc', firstName: 'Sameer', des: 'Junior' },
+    { lastName: 'Abc', firstName: 'Abdullah', des: 'Developer' },
+    { lastName: 'Abc', firstName: 'Saif', des: 'Junior' },
+    { lastName: 'Abc', firstName: 'Ismail', des: 'Developer' },
+  ]
+
 }
