@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-aboutus',
@@ -7,19 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutusComponent implements OnInit {
 
+  @Input() bankdetails: any;
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.bankdetails)
   }
 
-  name = 'Danial';
+  // name = 'Danial';
 
   date = new Date()
 
   obj = {
     name: 'danial', des: 'DE'
   }
-
 
 
   abdullahArray = [

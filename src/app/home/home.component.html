@@ -1,1 +1,12 @@
-<p>home works!</p>
+<div *ngFor="let value of arr">
+    <div>Name: {{value.name}}</div>
+    <div>Designation: {{value.designation}}</div>
+    <div>Banks:</div>
+    <app-aboutus [bankdetails]="value.bank"></app-aboutus>
+    <div (click)="Submit(value)">Button</div>
+    <br>
+</div>
+
+
+
+<!-- {{name}} -->
