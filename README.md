@@ -1,6 +1,6 @@
 # AngularSeries
 
-This repository contains the code of the [Angular Basics](https://www.youtube.com).
+This repository contains the code of the [Angular Basics](https://www.youtube.com/watch?v=--yVonjRLDo&list=PLMpNxNif3coKpr4HTUkuCDEoqDIPNKD_H).
 This course repository is based on Angular v12:
 
 
